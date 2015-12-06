@@ -87,9 +87,9 @@ while ( $stmt->fetch() ) {
               <td class="center">Level: ' . $slevel . '<br>Duration: ' . $sduration . '<br>X /day: ' . $sxday . '</td>
               <td class="center">Amount: ' . $wamount . '<br>X /day: ' . $wxday . '</td>';
 	  echo '</tbody></table><br>';
+}
 /* explicit close recommended */
 	  $stmt->close();
-}
 }
 ?>
     </body>
